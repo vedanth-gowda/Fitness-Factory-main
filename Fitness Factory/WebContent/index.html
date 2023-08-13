@@ -1,0 +1,296 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Fitness Factory</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style1.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+   		 <!-- webfonts -->
+   		 <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+   		  <!-- webfonts -->
+   		  <style type="text/css">
+   		  .page-header{
+   		  color:lightblue;
+   		  width:160px;
+   		  margin-left:450px;
+   		  text-shadow:4px 5px 4px purple;
+   		  
+   		 
+   		  
+   		  }
+   		  
+   		  </style>
+   		  
+   		  
+	</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<!-- logo -->
+					<div class="logo">
+						<a href="index.html"><img alt="logo" src="new images/fflogo.png"></a>
+					</div>  
+					<!-- logo -->
+					<!-- top-nav -->
+					<div class="top-nav"> &nbsp;&nbsp; &nbsp;<a href="Admin.html">Admin Login</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Login.html">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Registration.html">Register</a>
+						<span class="menu"> </span>
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<!-- <li><a href="services.html">Services</a></li>
+							<li><a href="blog.html">Blog</a></li> -->
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<!-- top-nav -->
+					<!-- script-for-nav -->
+					<script>
+						$(document).ready(function(){
+							$("span.menu").click(function(){
+								$(".top-nav ul").slideToggle(300);
+							});
+						});
+					</script>
+					<!-- script-for-nav -->
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- /header -->
+		</div>
+		<!-- /container -->
+		<!-- banner -->
+		<div class="benner">
+				<!-- slider -->
+				<!--- img-slider --->
+				<div class="img-slider">
+						<!----start-slider-script---->
+					<script src="js/responsiveslides.min.js"></script>
+					 <script>
+					    // You can also use "$(window).load(function() {"
+					    $(function () {
+					      // Slideshow 4
+					      $("#slider4").responsiveSlides({
+					        auto: true,
+					        pager: true,
+					        nav: true,
+					        speed: 500,
+					        namespace: "callbacks",
+					        before: function () {
+					          $('.events').append("<li>before event fired.</li>");
+					        },
+					        after: function () {
+					          $('.events').append("<li>after event fired.</li>");
+					        }
+					      });
+					
+					    });
+					  </script>
+					<!----//End-slider-script---->
+					<!-- Slideshow 4 -->
+					    <div  id="top" class="callbacks_container">
+					      <ul class="rslides" id="slider4">
+					        <li>
+					          <img class="img-responsive" src="new images/dymatize-banner.webp" alt="">
+					          <div class="slider-caption">
+					          	<h1>Fitness<span>Factory</span></h1>
+					      	 	<p>Unlock Your Fitness Potential with Fitness Factory!</p>
+					          	<p>The last stop for Supplements. </p>
+					         	 <a class="caption-btn" href="#">ReadMore</a>
+					          </div>
+					        </li>
+					        <li>
+					          <img src="new images/ON-Banner.jpg" alt="">
+					           <div class="slider-caption">
+					          	<h1>Fitness<span>Factory</span></h1>
+					  			<p>Start your fitness journey with Fitness Factory!</p>
+					          	<p>The last stop for Supplements. </p>
+					            <a class="caption-btn" href="#">ReadMore</a>
+					          </div>
+					        </li>
+					        <li>
+					          <img src="new images/Bigmuscle-glutamine-banner.jpg" alt="">
+					           <div class="slider-caption">
+					           	<h1>Fitness<span>Factory</span></h1>
+					           	<p>Grab your favorite supplement now at Fitness Factory!</p>
+					           	<p>The last stop for Supplements.</p>
+					           <a class="caption-btn" href="#">ReadMore</a>
+					          </div>
+					        </li>
+					      </ul>
+					    </div>
+					    <div class="clearfix"> </div>
+					</div>
+						<!-- slider -->
+					</div>
+
+		<div class="container">
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Products
+                    <small></small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="Whey proteins/ONwhey.png" alt="">
+                </a>
+                <h3 style="color:green">
+                    <a href="detail.jsp">OPTIMUM NUTRITION <br>100% Gold Standard Whey</a>
+                </h3>
+               <p>Whey protein for Muscle gain vanilla and cream flavour <a  href="detail.jsp">product details</a>.</p>
+
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="Whey proteins/RAWwhey.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">RAW CBUM <br>Thavage Whey Protein. </a>
+                </h3>
+                <p>Whey Protein for muscle gain Chocolate flavour<a href="detail.jsp">Product Details</a></p>
+
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="Whey proteins/DYMATIZEwhey.png" alt="">
+                </a>
+                <h3>
+                    <a href="detail3.jsp">DYMATIZE<br> Elite 100% Whey Protein</a>
+                </h3>
+                <p>Whey Protein for muscle gain Rich chocolate flavour
+                                 <a href="detail1.jsp">Product Details</a></p>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="Whey proteins/FASTUPwhey.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">FAST AND UP<br> Whey Concentrate</a>
+                </h3>
+                <p>Whey Protein for muscle gain Creamy coffee flavour
+                                 <a href="detail.jsp">Product Details</a></p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="Whey proteins/GENETICCODEwhey.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">GENETIC CODE <br>Ultra Whey Protein</a>
+                </h3>
+                 <p> Whey Protein for muscle gain Chocolote milk flavour
+                                 <a href="detail.jsp">Product Details</a></p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="Whey proteins/GNCPROwhey.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">GNC PRO<br> Performance 100% Whey Protein </a>
+                </h3>
+                <p> Whey Protein for muscle gain Chocolote supreme flavour
+                                 <a href="detail.jsp">Product Details</a></p>
+            </div>
+        </div>
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="Whey proteins/MUSCLEBLAZEwhey.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">MUSCLE BLAZE<br> Biozime Whey Protein</a>
+                </h3>
+                <p>Whey Protein for muscle gain Rich Chocolote flavour
+                                 <a href="detail.jsp">Product Details</a></p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="Whey proteins/NITROwhey.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">MUSCLE TECH<br> Nitro Whey Protein Complex</a>
+                </h3>
+<p>Whey Protein for muscle gain Double chocolate flavour
+                                 <a href="detail.jsp">Product Details</a></p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="Whey proteins/ONESCIENCwhey.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">ONE SCIENCE <br>Premium 100% Whey Protein</a>
+                </h3>
+                <p>Whey Protein for muscle gain Nepolitan ice cream flavour
+                                 <a href="detail.jsp">Product Details</a></p>
+            </div>
+            
+        </div>
+		<div class="bottom-grids">
+				<h2>Latest-News</h2>
+				<div class="bottom-grid bottom-grid1">
+					<div class="container">
+					<div class="col-md-3 bottom-grid-left">
+						<a href="#"><img src="latestNews/BhuwanChauhan.jpg" title="name" /></a>
+					</div>
+					<div class="col-md-9 bottom-grid-right">
+						<p>Bhuwan Chauhan to be the First Indian pro to get qualified for Olympia.</p>
+						<a class="news-btn" href="#">ReadMore</a>
+					</div>
+					<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="bottom-grid bottom-grid2">
+					<div class="container">
+					<div class="col-md-3 bottom-grid-left">
+						<a href="#"><img src="latestNews/SiddhantJaiswal.jpg" title="name" /></a>
+					</div>
+					<div class="col-md-9 bottom-grid-right">
+						<p>Siddhant Jaiswal is said to be the current best coach of India. What are your thoughts on that?</p>
+						<a class="news-btn" href="#">ReadMore</a>
+					</div>
+					<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="bottom-grid bottom-grid3">
+					<div class="container">
+					<div class="col-md-3 bottom-grid-left">
+						<a href="#"><img src="latestNews/aliBilalControversy.jpg" title="name" /></a>
+					</div>
+					<div class="col-md-9 bottom-grid-right">
+						<p><b>BREAKING NEWS!!!</b> Ali Bilal lost to Bhuwan Chauhan in India pro show. Cheating??</p>
+						<a class="news-btn" href="#">ReadMore</a>
+					</div>
+					<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+				<!-- <a class="load-news" href="#">LoadMore</a> -->
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<p class="copy-right">Design by <a href="#">vedanth</a></p>
+			</div>
+		</div>
+		<!-- /footer -->
+	</body>
+</html>
+
